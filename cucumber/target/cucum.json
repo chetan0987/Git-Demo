@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-23T09:31:31.998Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ramco.stepdefinition.Hooks.prerequisite()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "HomePage Login",
+        "description": "",
+        "id": "application-login;homepage-login",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ramco.stepdefinition.Hooks.prerequisiter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "users should be at login page",
+            "match": {
+              "location": "com.ramco.stepdefinition.StepDefinition.users_should_be_at_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login with username \"chetan\" and password \"lal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chetan\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"lal\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.ramco.stepdefinition.StepDefinition.user_login_with_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "home page is populated",
+            "match": {
+              "location": "com.ramco.stepdefinition.StepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "All cards are displayed",
+            "match": {
+              "location": "com.ramco.stepdefinition.StepDefinition.all_cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mobTest"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/ramco/features/Login.feature",
+    "tags": []
+  }
+]
