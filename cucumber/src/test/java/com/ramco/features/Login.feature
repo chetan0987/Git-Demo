@@ -13,6 +13,8 @@ Given users should be at login page
 When user signup with following details
 |chetan|lal|ranchi|
 |vivek|lal|Muz|
+|chetan|kumar|chennai|
+|mickey|kumar|chennai|
 Then home page is populated
 And All cards are displayed
 
