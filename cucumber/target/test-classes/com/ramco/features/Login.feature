@@ -15,6 +15,9 @@ When user signup with following details
 |vivek|lal|Muz|
 |chetan|kumar|chennai|
 |mickey|kumar|chennai|
+|mickey|kumar|chennai|
+|mickey|kumar|chennai|
+|mickey|kumar|chennai|
 Then home page is populated
 And All cards are displayed
 
